@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "the-complete-aws-sam-workshop-github-actions"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1m0305c74a7wb"
+s3_prefix = "the-complete-aws-sam-workshop-github-actions"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
